@@ -33,6 +33,7 @@ github_username:  ashwin47
 theme: moving
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_analytics:
+    Plausible:
+      domain: 'talesofexistence.com'
+      source: 'https://plausible.purplebird.xyz/js/plausible.js' # The source of the javascript
