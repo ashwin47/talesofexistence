@@ -57,5 +57,5 @@ plugins:
 
 jekyll_analytics:
     Plausible:
-      domain: 'talesofexistence.com'
+      domain: 'plausible.purplebird.xyz'
       source: 'https://plausible.purplebird.xyz/js/plausible.js' # The source of the javascript
